@@ -28,3 +28,14 @@ elif x != y and x == y:
  print("ENTRY 2 MISMATCH")
 elif x == y and x != z:
  print("ENTTRY 3 MISMATCH")
+
+# solution 5 
+x = input()
+if x == 't' or x == 'c':
+ y = int(input())
+ z = y + 1
+else:
+ z = 1
+print(z)
+
+# solution 6
