@@ -1,0 +1,30 @@
+# solution 1
+x = int(input())
+y = int(input())
+z = int(input())
+output = x + 12*(y*z)
+print(output)
+
+# solution 2
+x = int(input())
+y = int(input())
+output = x//y
+print(output)
+
+# solution 3
+x = str(input())
+y = x[2:] + x[:2]
+print(y)
+
+# solution 4
+x = str(input())
+y = str(input())
+z = str(input())
+if x == y == z:
+ print("OK")
+elif x != y and x != z:
+ print("BOTH MISMATCH")
+elif x != y and x == y:
+ print("ENTRY 2 MISMATCH")
+elif x == y and x != z:
+ print("ENTTRY 3 MISMATCH")
